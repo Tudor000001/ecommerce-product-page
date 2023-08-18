@@ -1,0 +1,186 @@
+body{
+    margin:5%;
+}
+
+#bar{
+    height:1px;
+    background-color: rgba(232, 232, 234, 255);
+}
+
+#content{
+    position:relative;
+    float:left;
+    display:inline;
+    width:50%;
+    height:fit-content;
+    display:inline;
+}
+
+#carousel{
+    width:100%;
+
+}
+
+.carousel-indicators button[data-bs-target]{
+    width:50%;
+}
+
+.carousel-indicators{
+    margin-bottom:-110px;
+}
+
+.carousel-indicators .active {
+    border:3px solid orange;
+    height:100%;
+    border-radius:10px;
+}
+
+#textContent {
+    float: right;
+    display: inline;
+    width: 49%;
+    background-color: transparent;
+}
+
+#text{
+    margin:50px;
+}
+
+#addCart{
+    background-color:transparent;
+}
+
+#amount{
+    display:inline;
+    font-weight:600;
+}
+
+#titleSmall{
+    color:darkorange;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+#titleBig{
+    font-size:40px;
+    font-weight:600;
+    line-height:40px;
+}
+
+#description {
+    color: darkgray;
+}
+
+#price{
+    font-size:30px;
+    display:inline;
+}
+
+#discount{
+    color:orangered;
+    background-color:orange;
+    border-radius:5px;
+    opacity:0.7;
+    font-weight:600;
+    vertical-align:text-bottom;
+    display:inline;
+}
+
+#oldPrice {
+    text-decoration: line-through;
+    color: darkgray;
+}
+
+.plusMinus{
+    background-color:transparent;
+    border:0;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#addCartButton{
+    background-color:darkorange;
+    width:60%;
+    height:50px;
+    border-radius:10px;
+    border:0;
+    color:white;
+}
+
+#avatar{
+    height:40px;
+    border-radius:50%;
+}
+
+#avatar:hover{
+    border:2px solid orange;
+}
+
+.dropdown-menu{
+    border-radius:10px;
+}
+
+.nav-item:hover{
+    border-bottom:2px solid orange;
+    border-radius:3px;
+}
+
+.img-thumbnail{
+    border:5px solid red;
+}
+
+#cartText{
+    text-indent:10px;
+    font-weight:600;
+}
+
+#cartList {
+    width: 400px;
+    height:200px;
+}
+
+#cartContent{
+    margin:20px;
+    display:inline;
+}
+
+#cartContentImg{
+    height:50px;
+    border-radius:5px;
+    margin:20px;
+    display:inline;
+    float:left;
+}
+
+#cartTextIn{
+    display:inline;
+    vertical-align:baseline;
+}
+
+#priceCart{
+    display:inline;
+}
+
+#amountCart{
+    display:inline;
+}
+
+.totalPriceTxt{
+    display:inline;
+    font-weight:700;
+}
+
+#checkout{
+    width:50%;
+    height:40%;
+    border-radius:10px;
+    background-color:orange;
+    border:0;
+}
+
+#delete{
+    border:0;
+    background-color:white;
+    float:right;
+    margin:10px;
+}
